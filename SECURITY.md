@@ -103,6 +103,6 @@ Meridian follows **coordinated disclosure**:
 
 ---
 
-## Known Limitations (Current Development Phase)
+## Known Limitations
 
-Meridian `v0.1.0` is a pre-mainnet scaffold. No real user funds are at risk in the current release. However, smart contract code merged into `main` that is intended for mainnet deployment must be reviewed as if funds are already at stake.
+Meridian is live on Stellar mainnet. Real USDC deposits are routed through the deployed `MeridianVault` into Blend Capital's mainnet USDC pool, and depositors receive mUSDC shares representing that position. Contract findings on the live deployment are treated as Critical severity without regard to the apparent difficulty of exploitation. Testnet deployments carry no user funds.
